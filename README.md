@@ -17,4 +17,4 @@
    * X = 54.898
 7) The final L1 distance obtained for this fit is 25.24 .
 8) This would be the final equation:
-$$\left(t \cdot \cos(0.461860)- e^{0.015306|t|} \cdot \sin(0.3t) \sin(0.461860)+ 51.020408,\;42 + t \cdot \sin(0.461860) + e^{0.015306|t|} \cdot \sin(0.3t) \cos(0.461860)\right)$$
+$$\left(t \cdot \cos(0.491)- e^{0.0214|t|} \cdot \sin(0.3t) \sin(0.491)+ 54.898, 42 + t \cdot \sin(0.491) + e^{0.0214|t|} \cdot \sin(0.3t) \cos(0.491)\right)$$
