@@ -12,7 +12,7 @@
    * The constraint bounds of X being between 0 and 100, i.e., 0 < X < 100
    * An initial guess was also provided
 6) The optimizer was run and the values obtained for the parameters theta, M and X were those that gave the least possible error which are
-   * theta = 28.12 degrees
+   * theta = 28.12 degrees ( 0.491 in radians)
    * M = 0.0214
    * X = 54.898
 7) The final L1 distance obtained for this fit is 25.24 .
