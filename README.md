@@ -1,9 +1,9 @@
 # FLAM-assessment
 1) First, the CSV file xy_data.csv was loaded. It contained only two columns that are x and y.
 2) The total number of data points in the file are 1500, and the given condition for t was 6 < t < 60. Therefore, a "t vector" of 1500 points was created, which were equally spaced from 6 to 60.
-3) A parametric equation was given, so i formulated the parametric equations given into a python function using the following expressions,
-         $$x(t) = (t \cdot \cos(\theta) - e^{M|t|} \cdot \sin(0.3t) \sin(\theta) + X)$$ (in LaTex format).
-         $$y(t) = (42 + t \cdot \sin(\theta) + e^{M|t|} \cdot \sin(0.3t) \cos(\theta))$$ (given in LaTex format).
+3) A parametric equation was given, so i formulated the parametric equations given into a python function mentioned in the uploaded file in run_optimization.py using the following expressions,
+   * $$x(t) = (t \cdot \cos(\theta) - e^{M|t|} \cdot \sin(0.3t) \sin(\theta) + X)$$ (in LaTex format).
+   * $$y(t) = (42 + t \cdot \sin(\theta) + e^{M|t|} \cdot \sin(0.3t) \cos(\theta))$$ (given in LaTex format).
 4) A loss function was made to gauge the error. The loss function figures out the L1 distance which is the Mean Absolute Error between the (x,y) points derived from the CSV and the (x.y) points predicted by our model.
 5) From the Python's scipy library, I used scipy.optimize.minimize which is a very advanced optimization tool. I passed it the following arguments,
    * The error function to minimize 
